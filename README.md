@@ -1,5 +1,6 @@
 # daweb-docker-lamp
 Proyecto para la instalación de LAMP a través de contenedores Docker
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/fc8fd296-f68e-4eee-9121-3b24be08f808)
 
 ```
 docker-lamp
