@@ -1,6 +1,5 @@
 # daweb-docker-lamp
 Proyecto para la instalación de LAMP a través de contenedores Docker
-![image](https://github.com/alvrichh/docker-lamp/assets/81918923/fc8fd296-f68e-4eee-9121-3b24be08f808)
 
 ```
 docker-lamp
@@ -32,6 +31,7 @@ docker-lamp
       └─ myDb.sql
 
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/fc8fd296-f68e-4eee-9121-3b24be08f808)
 
 La estructura del proyecto `docker-lamp` es un entorno de desarrollo LAMP (Linux, Apache, MySQL, PHP) utilizando Docker. A continuación, se describen cada parte de la estructura:
 
@@ -109,6 +109,8 @@ Los usuarios tiene el formato:
 ```
 usuario:contraseña
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/6bdfdfc3-343c-4911-b38f-1003572b3529)
+
 La constraseña se puede generar con la utilidad de apache2-utils o directamente usando un [generador online](https://hellotools.org/es/generar-cifrar-contrasena-para-archivo-htpasswd)
 
 ## Construir las Imágenes
@@ -118,6 +120,8 @@ Construir las imágenes usando Docker Compose:
 ```bash
 docker-compose build
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/51cd1de1-2f53-4d24-9ebf-fd68ed36e43c)
+
 
 ## Iniciar los Contenedores
 
@@ -126,6 +130,7 @@ Arrancar los contenedores en modo detached:
 ```bash
 docker-compose up -d
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/2167d377-415a-4a62-b990-ae6412ed1416)
 
 ## Comprobaciones de Prueba
 
