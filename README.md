@@ -130,7 +130,7 @@ Arrancar los contenedores en modo detached:
 ```bash
 docker-compose up -d
 ```
-![image](https://github.com/alvrichh/docker-lamp/assets/81918923/ac51e39b-fa20-4ec9-9d1f-cb4c801cf87d)
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/c7d598ff-ef62-4da2-8af3-3fc19371e0dd)
 
 ## Comprobaciones de Prueba
 
