@@ -23,12 +23,18 @@ COPY ./conf/*.conf /etc/apache2/sites-available/
 # Copiar archivos de contraseñas
 COPY ./etc/apache2/.htpasswd /etc/apache2/.htpasswd
 
+# Copiar archivos de contraseñas
+COPY ./certs /etc/apache2/ssl
+
 # Habilitar los virtual hosts
 RUN a2ensite intranet.conf \
     && a2ensite alvaro-rodriguez-phpmyadmin.conf
 
 # Habilitar el módulo de proxy
 RUN a2enmod proxy proxy_http
+
+# Habilitar el módulo ssl
+RUN a2enmod ssl
 
 # Exponer el puerto 8081
 EXPOSE 8081
