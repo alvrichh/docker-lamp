@@ -318,3 +318,6 @@ Para acceder a las urls configuradas en los virtual host:
 - **PHP Info**: [https://www.local/phpinfo.php](https://www.local/phpinfo.php)
 - **Conexión a la Base de Datos**: [https://www.local/test-bd.php](https://www.localtest-bd.php)
 
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/bef55ab8-3311-448a-87c9-69400a5d21b3)
+
+
