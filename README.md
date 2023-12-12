@@ -200,8 +200,8 @@ Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - intranet.conf
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](docs/images/image.png)
+![Alt text](docs/images/image-1.png)
 ## Instalación de Certificados SSL
 
 ### Generación de Certificados
