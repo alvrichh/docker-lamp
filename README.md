@@ -153,6 +153,8 @@ Para probar si los servicios están funcionando correctamente, acceder a los sig
  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/12545023-34ed-4b3a-9c2d-36a74159022d)
 
 - **Prueba de la intranet**: [http://localhost:8060 (usando usuario1 y contraseña:123456789 o el usuario creado en el paso anterior)](http://localhost:8060)
+  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/525a610e-3346-46a1-97c4-13a1bdfc7244)
+
   ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/88b51a85-3ed3-476d-b408-72948ad6622a)
 
 - **Prueba de PHP Info**: [http://localhost/phpinfo.php](http://localhost/phpinfo.php)
