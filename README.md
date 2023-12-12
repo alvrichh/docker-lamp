@@ -227,6 +227,20 @@ Se puede usar el comando:
 mkdir certs
 cd certs
 ```
+Descargamos OpenSSL desde este enlace:
+[Win64 OpenSSL v3.2.0](https://slproweb.com/products/Win32OpenSSL.html)
+
+Configuramos las variables de entorno:
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/cf5fb816-3efb-405a-afaa-12518596139c)
+
+Hacemos click en Path
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/6f6bfa3d-2d85-4453-92bc-8cdb9afa2e90)
+Hacemos click en "Nuevo" y colocamos la carpeta bin de OpenSSL
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/c1efedb5-038b-47df-b953-7e03a6dccd82)
+
+
+
+
 
 Lanzar el comando de generación de certificados de openssl:
 
