@@ -212,6 +212,9 @@ Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 
 Habilitamos los módulos de proxy inverso en el Dockerfile de la imágen de apache. Estos módulos son: proxy proxy_http.
 Por activamos el módulo de configuración del nombre-apellidos-phpmyadmin.conf en el Dockerfile del fichero apache.
+
+3. Modifica el index.html de la intranet para que tenga otra apariencia distinta a la página por defecto, puede ser cualquier plantilla html "copyleft o free" que encuentres por internet.
+![Mi Intranet](docs/images/ihtmlintranet.png)
 ## Instalación de Certificados SSL
 
 ### Generación de Certificados
