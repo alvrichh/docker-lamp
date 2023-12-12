@@ -241,6 +241,7 @@ Configuramos las variables de entorno:
 Hacemos click en Path
 
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/6f6bfa3d-2d85-4453-92bc-8cdb9afa2e90)
+
 Hacemos click en "Nuevo" y colocamos la carpeta bin de OpenSSL
 
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/c1efedb5-038b-47df-b953-7e03a6dccd82)
