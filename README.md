@@ -196,15 +196,18 @@ Hay que modificar el fichero **/etc/hosts** del sistema operativo anfitrión (no
 Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - www.local -> nombre-apellidos-www.local
 - intranet.local -> nombre-apellidos-intranet.local
-000-default.conf:
+- 000-default.conf:
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/e4639ec8-daf6-422d-8572-98651ebebed7)
-
-
-intranet.conf
-![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
-
 ![1a](docs/images/image.png)
+
+
+- intranet.conf
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
 ![1b](docs/images/image-1.png)
+- alvaro-rodriguez-phpmyadmin.conf
+![2](docs/images/image-2.png)
+![2a](docs/images/image-3.png)
+
 ## Instalación de Certificados SSL
 
 ### Generación de Certificados
