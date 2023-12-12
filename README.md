@@ -151,14 +151,17 @@ htpasswd /etc/apache2/.htpasswd usuario2
 Para probar si los servicios están funcionando correctamente, acceder a los siguientes enlaces a través del navegador:
 
 - **Prueba del sitio principal**: [http://localhost](http://localhost)
+  
  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/12545023-34ed-4b3a-9c2d-36a74159022d)
 
 - **Prueba de la intranet**: [http://localhost:8060 (usando usuario1 y contraseña:123456789 o el usuario creado en el paso anterior)](http://localhost:8060)
+  
   ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/525a610e-3346-46a1-97c4-13a1bdfc7244)
 
   ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/88b51a85-3ed3-476d-b408-72948ad6622a)
 
 - **Prueba de PHP Info**: [http://localhost/phpinfo.php](http://localhost/phpinfo.php)
+  
   ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/0117a562-a8f5-4e05-b6fd-f3cedddb90dc)
 
 - **Prueba de Conexión a la Base de Datos**: [http://localhost/test-bd.php](http://localhost/test-bd.php)
@@ -176,6 +179,7 @@ docker-compose down
 ```
 
 ## (Opcional) Configuración
+Estas comprobaciones se ejecutan en las capturas previas.
 Para acceder a las urls configuradas en los virtual host:
 - **Sitio Principal**: [http://www.local](http://www.local)
 - **Intranet**: [http://intranet.local:8060 (usando usuario1 y contraseña:123456789 o el usuario creado en el paso anterior)](http://intranet.local:8060)
@@ -310,14 +314,27 @@ RUN a2enmod ssl
 
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/3bc1a18d-5e9d-4118-8ccb-9f83a7bebe3f)
 
+Volvemos a contruir la imagen docker y probamos que funcione correctamente.
 
 ## (Opcional) Configuración
 Para acceder a las urls configuradas en los virtual host:
 - **Sitio Principal**: [https://www.local](https://www.local)
+  
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/bef55ab8-3311-448a-87c9-69400a5d21b3)
+
+  
 - **Intranet**: [https://intranet.local (usando usuario1 y contraseña:123456789 o el usuario creado en el paso anterior)](https://intranet.local)
+
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/8ddcaa08-1192-4830-8424-5073ec250076)
+
+
 - **PHP Info**: [https://www.local/phpinfo.php](https://www.local/phpinfo.php)
+
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/96078ca5-d772-41f4-a307-0499498348aa)
+
 - **Conexión a la Base de Datos**: [https://www.local/test-bd.php](https://www.localtest-bd.php)
 
-![image](https://github.com/alvrichh/docker-lamp/assets/81918923/bef55ab8-3311-448a-87c9-69400a5d21b3)
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/55b1a6ea-21da-4758-a242-19b55d687ff6)
+
 
 
