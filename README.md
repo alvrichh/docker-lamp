@@ -132,7 +132,7 @@ docker-compose up -d
 ```
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/0a46d31e-9f42-417b-8ff6-2964bb2108a0)
 
-Luego hemos cambiado los nombres de acceso a la BD MySQL, y no aparecerá el warning, Commit: 
+Luego hemos cambiado los nombres de acceso a la BD MySQL, y no aparecerá el warning, Commit: [b0d1b76](https://github.com/alvrichh/docker-lamp/commit/b0d1b7620cd448a7cbce05e1c9aa27d70ed83f56)
 ## Comprobaciones de Prueba
 
 ### Creación de un usuario adicional para acceder a la intranet:
