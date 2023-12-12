@@ -188,6 +188,8 @@ Hay que modificar el fichero **/etc/hosts** del sistema operativo anfitrión (no
 127.0.0.1	www.local
 127.0.0.1	intranet.local
 ```
+Ruta del archivo de configuración de host System32/drivers/etc
+
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/f5025949-d3cd-42a1-8095-da73ad1363f7)
 
 ## PARTE 1 (VIRTUAL HOST)
@@ -204,6 +206,11 @@ Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - intranet.conf
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
 ![1b](docs/images/image-1.png)
+
+Añadimos al archivo host:
+```
+127.0.0.1	alvaro-rodriguez-phpmyadmin
+```
 - alvaro-rodriguez-phpmyadmin.conf
 ![2](docs/images/image-2.png)
 ![2a](docs/images/image-3.png)
