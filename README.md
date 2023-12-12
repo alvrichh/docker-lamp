@@ -130,7 +130,7 @@ Arrancar los contenedores en modo detached:
 ```bash
 docker-compose up -d
 ```
-![image](https://github.com/alvrichh/docker-lamp/assets/81918923/2167d377-415a-4a62-b990-ae6412ed1416)
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/0a46d31e-9f42-417b-8ff6-2964bb2108a0)
 
 ## Comprobaciones de Prueba
 
@@ -150,10 +150,19 @@ htpasswd /etc/apache2/.htpasswd usuario2
 Para probar si los servicios están funcionando correctamente, acceder a los siguientes enlaces a través del navegador:
 
 - **Prueba del sitio principal**: [http://localhost](http://localhost)
+ ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/12545023-34ed-4b3a-9c2d-36a74159022d)
+
 - **Prueba de la intranet**: [http://localhost:8060 (usando usuario1 y contraseña:123456789 o el usuario creado en el paso anterior)](http://localhost:8060)
+  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/88b51a85-3ed3-476d-b408-72948ad6622a)
+
 - **Prueba de PHP Info**: [http://localhost/phpinfo.php](http://localhost/phpinfo.php)
+  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/0117a562-a8f5-4e05-b6fd-f3cedddb90dc)
+
 - **Prueba de Conexión a la Base de Datos**: [http://localhost/test-bd.php](http://localhost/test-bd.php)
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/b11d71ca-11a3-431d-9604-0c642d571938)
+
 - **Prueba de phpmyadmin**: [http://localhost:8080 (con el usuario root y la contraseña establecida)](http://localhost:8080)
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/cc84dd4e-1b26-43a7-8e67-a841b633f8af)
 
 
 ## Detener los Contenedores
