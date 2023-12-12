@@ -27,9 +27,6 @@ COPY ./etc/apache2/.htpasswd /etc/apache2/.htpasswd
 RUN a2ensite intranet.conf \
     && a2ensite alvaro-rodriguez-phpmyadmin.conf
 
-# Configurar el puerto de escucha por el puerto 8081
-RUN sed -i 's/Listen 80/Listen 8081/g' /etc/apache2/ports.conf
-
 # Habilitar el módulo de proxy
 RUN a2enmod proxy proxy_http
 
