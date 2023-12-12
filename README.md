@@ -258,6 +258,7 @@ Lanzar el comando de generación de certificados de openssl:
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout www.key -out www.crt
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout intranet.key -out intranet.crt
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/c41a56e6-0324-4081-91d0-de2fa6e8b49d)
 
 Este comando crea un certificado (crt) y una clave privada (key) válidos por 365 días.
 - x509: Especifica que quieres generar un certificado autofirmado.
@@ -270,6 +271,9 @@ Este comando crea un certificado (crt) y una clave privada (key) válidos por 36
 Durante el proceso, se piden detalles como país, estado, organización, etc. 
 
 Para Common Name (Introducir el nombre del dominio www.local, intranet.local).
+
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/f61e7c38-bafd-4da2-89a3-58b1fb854299)
+
 
 
 ### Configurar Virtual Host 443
