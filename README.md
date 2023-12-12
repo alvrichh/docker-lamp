@@ -189,19 +189,21 @@ Hay que modificar el fichero **/etc/hosts** del sistema operativo anfitrión (no
 ```
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/f5025949-d3cd-42a1-8095-da73ad1363f7)
 
+## PARTE 1 (VIRTUAL HOST)
+
 
 Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - www.local -> nombre-apellidos-www.local
 - intranet.local -> nombre-apellidos-intranet.local
-- 000-default.conf:
-  ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/e4639ec8-daf6-422d-8572-98651ebebed7)
+000-default.conf:
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/e4639ec8-daf6-422d-8572-98651ebebed7)
 
 
-- intranet.conf
+intranet.conf
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
 
-![Alt text](docs/images/image.png)
-![Alt text](docs/images/image-1.png)
+![1a](docs/images/image.png)
+![1b](docs/images/image-1.png)
 ## Instalación de Certificados SSL
 
 ### Generación de Certificados
