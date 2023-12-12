@@ -188,8 +188,6 @@ Hay que modificar el fichero **/etc/hosts** del sistema operativo anfitrión (no
 127.0.0.1	www.local
 127.0.0.1	intranet.local
 ```
-Ruta del archivo de configuración de host System32/drivers/etc
-
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/f5025949-d3cd-42a1-8095-da73ad1363f7)
 
 ## PARTE 1 (VIRTUAL HOST)
@@ -206,11 +204,6 @@ Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - intranet.conf
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4dc6a9a4-1b7c-425e-a91d-e24c2e58ea53)
 ![1b](docs/images/image-1.png)
-
-Añadimos al archivo host:
-```
-127.0.0.1	alvaro-rodriguez-phpmyadmin
-```
 - alvaro-rodriguez-phpmyadmin.conf
 ![2](docs/images/image-2.png)
 ![2a](docs/images/image-3.png)
@@ -258,6 +251,7 @@ Lanzar el comando de generación de certificados de openssl:
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout www.key -out www.crt
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout intranet.key -out intranet.crt
 ```
+
 ![image](https://github.com/alvrichh/docker-lamp/assets/81918923/c41a56e6-0324-4081-91d0-de2fa6e8b49d)
 
 Este comando crea un certificado (crt) y una clave privada (key) válidos por 365 días.
@@ -295,6 +289,9 @@ En cada archivo de configuración agregar una regla como esta replicando la conf
     SSLCertificateKeyFile /etc/apache2/ssl/intranet.key
 </VirtualHost>
 ```
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/599ad7d0-a676-4aaf-b33c-36fbb69303df)
+
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/4c5c5769-5687-42e2-9477-ea41d3941422)
 
 ### Habilitar el módulo mod_ssl
 
@@ -310,6 +307,8 @@ Además se debe habilitar el módulo ssl, para ello agregar la siguiente línea:
 ```
 RUN a2enmod ssl
 ```
+
+![image](https://github.com/alvrichh/docker-lamp/assets/81918923/3bc1a18d-5e9d-4118-8ccb-9f83a7bebe3f)
 
 
 ## (Opcional) Configuración
