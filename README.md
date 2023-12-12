@@ -207,7 +207,11 @@ Modificamos el nombre de los virtualhost dados de ejemplo para que sean:
 - alvaro-rodriguez-phpmyadmin.conf
 ![2](docs/images/image-2.png)
 ![2a](docs/images/image-3.png)
+- # Dockerfile 
+ ![Dockerfile](docs/images/idockerfile.png)
 
+Habilitamos los módulos de proxy inverso en el Dockerfile de la imágen de apache. Estos módulos son: proxy proxy_http.
+Por activamos el módulo de configuración del nombre-apellidos-phpmyadmin.conf en el Dockerfile del fichero apache.
 ## Instalación de Certificados SSL
 
 ### Generación de Certificados
